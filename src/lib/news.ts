@@ -5,7 +5,7 @@ export async function fetchNews() {
   console.log('Attempting to fetch news from Spring Boot backend...');
   
   try {
-    const response = await axios.get('http://localhost:8080/api/news/public');
+    const response = await axios.get('https://q7z3gp5k-8080.inc1.devtunnels.ms/api/news/public');
     return response.data;
   } catch (error) {
     console.error('Error fetching news:', error);

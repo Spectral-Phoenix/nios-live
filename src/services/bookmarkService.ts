@@ -1,7 +1,7 @@
 import axios from 'axios';
 import AuthService from './authService';
 
-const API_URL = 'http://localhost:8080/api/bookmarks/';
+const API_URL = 'https://q7z3gp5k-8080.inc1.devtunnels.ms/api/bookmarks/';
 
 // Helper function to get auth token
 const getAuthHeader = () => {

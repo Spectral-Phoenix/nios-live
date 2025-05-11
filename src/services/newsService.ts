@@ -1,8 +1,8 @@
 import axios from 'axios';
 import AuthService from './authService';
 
-const API_URL = 'http://localhost:8080/api/news/';
-const ADMIN_API_URL = 'http://localhost:8080/api/admin/';
+const API_URL = 'https://q7z3gp5k-8080.inc1.devtunnels.ms/api/news/';
+const ADMIN_API_URL = 'https://q7z3gp5k-8080.inc1.devtunnels.ms/api/admin/';
 
 // Helper function to get auth token
 const getAuthHeader = () => {
